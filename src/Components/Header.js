@@ -22,6 +22,7 @@ export default class Header extends React.Component {
             <div>
                 <head>
                     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet"></link>
+                    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"></link>
                 </head>
                 <body>
                     <header>
@@ -49,8 +50,13 @@ export default class Header extends React.Component {
                         </ul>
                     </header>
                     <section id='welcome-section'>
-                        <h2>Welcome to our Studio!</h2>
-                        <h1>IT'S NICE TO MEET YOU!</h1>
+                        <p id='welcome-studio'>Welcome To Our Studio!</p>
+                        <p id='nice-to-meet-you'>IT'S NICE TO MEET YOU!</p>
+                        <div id='tell-me-more'>TELL ME MORE</div>
+                    </section>
+                    <section id='services-section'>
+                        <p id='services-message'>Services</p>
+                        <p id='lorem-message'>Lorem ipsum yadda yadda yadda</p>
                     </section>
                 </body>
             </div>

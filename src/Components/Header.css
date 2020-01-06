@@ -6,17 +6,54 @@ header {
 }
 
 #welcome-section {
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
     width: 100vw;
     height: 70vw;
-    background-color: green;
+    z-index: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+#welcome-studio {
+    font-size: 40px;
+}
 
+#nice-to-meet-you {
+    font-size: 75px;
+}
 
 #start-bootstrap {
     color: rgb(245, 160, 3);
     font-family: Kaushan Script, cursive;
     font-size: 40px;
+}
+
+#tell-me-more {
+    width: 200px;
+    height: 75px;
+    background-color: rgb(245, 160, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#services-section {
+    width: 100vw;
+    height: 70vw;
+    background-color: rgb(210, 189, 224);
+}
+
+#services-message {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#lorem-message {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .drop-down-menu, .drop-down-menu-open, .drop-down-menu-closed {
@@ -25,7 +62,7 @@ header {
     position: absolute;
     top: 80px;
     left: 0;
-    z-index: -1;
+    z-index: 1;
 }
 
 .drop-down-menu {
@@ -94,5 +131,9 @@ img {
     .menu-text {
         display: none;
     }
+}
+
+@media (max-width: 675px){
+
 }
 
