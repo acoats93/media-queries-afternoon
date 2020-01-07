@@ -28,7 +28,9 @@ header {
 #start-bootstrap {
     color: rgb(245, 160, 3);
     font-family: Kaushan Script, cursive;
-    font-size: 40px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
 }
 
 #tell-me-more {
@@ -134,6 +136,11 @@ img {
 }
 
 @media (max-width: 675px){
-
+    #welcome-studio {
+        font-size: 20px;
+    }
+    #nice-to-meet-you {
+        font-size: 30px;
+    }
 }
 
